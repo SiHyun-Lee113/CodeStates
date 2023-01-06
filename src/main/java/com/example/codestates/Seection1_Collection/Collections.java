@@ -1,5 +1,6 @@
 package com.example.codestates.Seection1_Collection;
 
+import java.net.Inet4Address;
 import java.util.*;
 
 public class Collections {
@@ -13,14 +14,17 @@ public class Collections {
         list.add(5);
         list.add(6);
         list.add(7);
+//
+//        Iterator<Integer> iterator = list.iterator();
+//        String[] arr = {"1", "2"};
+//
+//
+//        while (iterator.hasNext()) {
+//            int next = iterator.next();
+//            if (next == 4)
+//                iterator.remove();
+//        }
+//        System.out.println(list);
 
-        Iterator<Integer> iterator = list.iterator();
-
-        while(iterator.hasNext()) {
-            int next = iterator.next();
-            if (next == 4)
-                iterator.remove();
-        }
-        System.out.println(list);
     }
 }
