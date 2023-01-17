@@ -1,5 +1,7 @@
 package com.example.codestates.Thread;
 
+import java.util.*;
+
 public class ThreadExample3 {
     public static void main(String[] args) {
 
@@ -12,10 +14,15 @@ public class ThreadExample3 {
 
         thread3_1.start();
         thread3_2.start();
-    }
-}
 
-class Account {
+        Set<Integer> set = new HashSet<>();
+        Map<Integer, Integer> map = new HashMap();
+        List<Integer> list = new ArrayList<>();
+        String[] arr = {};
+
+    }
+
+static class Account {
 
     // 잔액을 나타내는 변수
     private int balance = 1000;
@@ -46,7 +53,7 @@ class Account {
     }
 }
 
-class ThreadTask3 implements Runnable {
+static class ThreadTask3 implements Runnable {
     Account account = new Account();
 
     public void run() {
@@ -66,4 +73,4 @@ class ThreadTask3 implements Runnable {
             );
         }
     }
-}
+}}
