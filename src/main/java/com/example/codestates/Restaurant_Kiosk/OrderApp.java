@@ -1,7 +1,6 @@
 package com.example.codestates.Restaurant_Kiosk;
 
 import com.example.codestates.Restaurant_Kiosk.Product.ProductRepository;
-import javafx.scene.input.Mnemonic;
 
 import java.util.Scanner;
 
