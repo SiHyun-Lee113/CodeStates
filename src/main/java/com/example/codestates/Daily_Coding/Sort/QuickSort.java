@@ -1,4 +1,4 @@
-package com.example.codestates.Daily_Coding;
+package com.example.codestates.Daily_Coding.Sort;
 
 import java.util.Arrays;
 
